@@ -1,0 +1,11 @@
+.removeTask {
+  cursor: pointer;
+  margin-left: auto;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.7rem;
+  background-color: red;
+  padding: 4px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e7e7e7;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #203047;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header nav {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav > span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header nav > span > span {
+  color: #f5d01f;
+}
+
+.header nav .profile {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600px;
+}
+
+.welcomeMessage {
+  font-size: 11px;
+  color: #ddd;
+}
+
+.works {
+  max-width: 1160px;
+  margin: 40px auto 0;
+}
+
+.works h2 {
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.form input,
+.form button {
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form input {
+  flex: 1 1;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 8px;
+  margin-right: 20px;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #f5d01f;
+  padding: 4px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.myWorks {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.myWorks li {
+  width: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 6px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.myWorks li span {
+  font-weight: 400;
+}
+
+.myWorks li span.taskConcluded {
+  text-decoration: line-through;
+}
+
+/* .myWorks li input + span::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(
+    transparent 0 48%,
+    black 50% calc(50% + 2px),
+    transparent calc(50% + 2px) 100%
+  );
+  width: 0;
+  height: 100%;
+  transition: width 1s linear;
+  display: inline-block;
+}
+
+.myWorks li input:checked + span::before {
+  width: 100%;
+} */

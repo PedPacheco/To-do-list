@@ -1,0 +1,33 @@
+.inspiration {
+  max-width: 1160px;
+  margin: 40px auto 0;
+}
+
+.inspiration h2 {
+  font-weight: 500;
+}
+
+.inspirationCards {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  height: 130px;
+  max-width: 48%;
+  padding: 20px;
+  background-color: #203047;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.card p:last-child {
+  font-size: 0.9rem;
+}
